@@ -8,7 +8,7 @@ I'm Sophie Morris (she/her), an indie game programmer and game designer. I like 
 * Musician
 
 # Projects
-## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole){:target="_blank" rel="noopener"}
+## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
 [<img width="315" height="250" alt="yI4foT" src="https://github.com/user-attachments/assets/278735f5-52e7-44dc-88a8-73384be21c3e" />](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
 
 A puzzle-platformer about Mothman trying to get to his lamp by using a small portal to another dimension. The player must use the portal to cut away to an alternate level, allowing the player to progress by switching between the two level sides.
@@ -17,7 +17,7 @@ _The Light, The Cryptid, and The Wormhole_ was created in 48 hours for the SSU F
 
 Winner of the **Jammer's Choice** and **Best Use of Theme** awards.
 
-## <a href="https://cube-number-zero.itch.io/black-box" target="_blank">Black Box</a>
+## [Black Box](https://cube-number-zero.itch.io/black-box)
 [<img width="315" height="286" alt="UhdCiO" src="https://github.com/user-attachments/assets/a6ac54b0-1205-436c-a5fa-6d6b2152da2f" />](https://cube-number-zero.itch.io/black-box)
 
 An experimental puzzle game where the player has to navigate levels without seeing where they are; they must keep track of all puzzle elements in their memory while trying to find the solution.

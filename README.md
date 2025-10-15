@@ -8,7 +8,7 @@ I'm Sophie Morris (she/her), an indie game programmer and game designer. I like 
 * Musician
 
 # Projects
-## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
+## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole){:target="_blank" rel="noopener"}
 [<img width="315" height="250" alt="yI4foT" src="https://github.com/user-attachments/assets/278735f5-52e7-44dc-88a8-73384be21c3e" />](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
 
 A puzzle-platformer about Mothman trying to get to his lamp by using a small portal to another dimension. The player must use the portal to cut away to an alternate level, allowing the player to progress by switching between the two level sides.

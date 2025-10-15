@@ -17,7 +17,7 @@ _The Light, The Cryptid, and The Wormhole_ was created in 48 hours for the SSU F
 
 Winner of the **Jammer's Choice** and **Best Use of Theme** awards.
 
-## [Black Box](https://cube-number-zero.itch.io/black-box)
+## <a href="https://cube-number-zero.itch.io/black-box" target="_blank">Black Box</a>
 [<img width="315" height="286" alt="UhdCiO" src="https://github.com/user-attachments/assets/a6ac54b0-1205-436c-a5fa-6d6b2152da2f" />](https://cube-number-zero.itch.io/black-box)
 
 An experimental puzzle game where the player has to navigate levels without seeing where they are; they must keep track of all puzzle elements in their memory while trying to find the solution.

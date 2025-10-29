@@ -5,7 +5,7 @@ I'm Sophie Morris (she/her), an indie game programmer and game designer. I like 
 * Programming (C, C++, GDScript, Python)
 * Godot
 * Game Design
-* Musician
+* [Musician](https://blap.bandcamp.com/)
 
 # Projects
 ## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)

@@ -14,7 +14,7 @@ I'm Sophie Morris (she/her), an indie game programmer and game designer. I like 
 
 An arcade puzzle game about connecting flowers to each other with vines. The player must keep all flowers of the same color connected at all times, and must use portals to connect flowers across different boards.
 
-_Kruskal's Garden_ was created in 72 hours for the SSU Computing Houses Fall Game Jam 2025 with the theme **Connections**. It was created by: [myself](https://cube-number-zero.itch.io/) (gameplay programming, dark magic), [Emma Brandt](https://emmagain.itch.io/) (UI programming and layout), [Kenyon Fears](https://drfear.itch.io/) (art, some UI programming), [Chloe Shaffer](https://goatz4eva.itch.io/) (art), and [Kory Byrne](https://koryb.itch.io/) (music).
+_Kruskal's Garden_ was created in 72 hours for the SSU Computing Houses Fall Game Jam 2025 with the theme **Connections**. It was created by: [myself](https://cube-number-zero.itch.io/) (gameplay programming, [dark magic](#dark-magic-kruskals-garden)), [Emma Brandt](https://emmagain.itch.io/) (UI programming and layout), [Kenyon Fears](https://drfear.itch.io/) (art, some UI programming), [Chloe Shaffer](https://goatz4eva.itch.io/) (art), and [Kory Byrne](https://koryb.itch.io/) (music).
 
 ## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
 
@@ -48,3 +48,30 @@ _Robovac Software Engineer Simulator 2535_ was created in nine days for the SSU 
 An action game about delivering pizzas and using magic spells to do it.
 
 _Pizza Wizard: 144X_ was created for a class project by Dante Brooks, [Camilla Leslie](https://thecammy.itch.io/), myself, and Yvette Smith. My responsibilies were creating the music and programming the player controller, realistic car physics, the upgrade system, and several small systems for the others to use.
+
+# Code Snippets
+## Dark Magic (_Kruskal's Garden_)
+<img width="315" height="105" alt="dark magic" src="https://github.com/user-attachments/assets/ac25f28a-f444-4a1d-893e-e081ee6f8e93" />
+
+`#region dark magic` was a 410-line-long region of code in a .gd file from my game jam project _Kruskal's Garden_ that was seperated from the main file because of its complexity. It was entirely written by me to process drawing vines and detecting disconnected flowers.
+
+Here is an abridged sample of code from `#region dark magic` (board.gd):
+```gdscript
+var atlasindex: int = VECTOR_TO_ATLAS_INDEX[cell - drawing_cell]
+
+if ATLAS_COORDS_TO_ATLAS_INDEX.has(previous_atlas_coords):
+  # Update previous cell
+  var previous_atlas_index = ATLAS_COORDS_TO_ATLAS_INDEX[previous_atlas_coords]
+  var new_atlas_index = previous_atlas_index ^ atlasindex
+  if ATLAS_INDEX_TO_ATLAS_COORDS.has(new_atlas_index):
+    var new_atlas_coords = ATLAS_INDEX_TO_ATLAS_COORDS[new_atlas_index]
+    layer.set_cell(drawing_cell, 0, new_atlas_coords + ATLAS_OFFSETS[drawing_type])
+```
+This code handles updating a cell's tile atlas when you draw a vine from that cell to an adjacent cell.
+
+Determining the best way to do this was probably the most difficult part of the project that I worked on. The problem is that I didn't have an easy way to determine the shape of the vine on a cell. I could read its tile atlas coordinates using `TileMapLayer.get_cell_atlas_coords(coords: Vector2i)` to get the coordinates of the tile's sprite in its spritesheet, but while this was unique to each sprite, their specific coordinates were mostly arbitrary. I needed a way to convert the tiles' shape into data.
+
+Eventually, I realized that I could express a tile's shape using the bits of an integer. If a cell had a vine connecting to its upper edge, it would have a 1 in the ones place. If it had a vine connecting to the right, it would have a 1 in the twos place. Downward vines meant a 1 in the fours place, and leftward vines meant a 1 in the eights place. If a cell was connected to the left and top (┘), it would be represented as 0b1001 (9). I called the integers structured this way atlas indices. I created a dictionary to convert tile atlas coordinates to an integer like this (`ATLAS_COORDS_TO_ATLAS_INDEX`) and another to do the inverse (`ATLAS_INDEX_TO_ATLAS_COORDS`).
+
+Now for the code itself:
+First, I get a vector representing the direction the player is drawing towards and use another dictionary to convert it into an atlas index corresponding to a vine growing from that direction. Then, I determine the atlas index of the cell that is already in this square. Once I have the current atlas index of the cell and the atlas index that I want to add, I can bitwise exclusive or (`^`) the two together to get the resulting atlas index. Then, I can convert the atlas index back into atlas coordinates and use `TileMapLayer.set_cell(coords: Vector2i, source_id: int, atlas_coords: Vector2i)` to set the cell to the correct sprite.

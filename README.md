@@ -59,6 +59,7 @@ Here is an abridged sample of code from `#region dark magic` (board.gd):
 ```gdscript
 var atlasindex: int = VECTOR_TO_ATLAS_INDEX[cell - drawing_cell]
 
+# Set previous cell's atlas
 if ATLAS_COORDS_TO_ATLAS_INDEX.has(previous_atlas_coords):
   # Update previous cell
   var previous_atlas_index = ATLAS_COORDS_TO_ATLAS_INDEX[previous_atlas_coords]

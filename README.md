@@ -16,6 +16,8 @@ An arcade puzzle game about connecting flowers to each other with vines. The pla
 
 _Kruskal's Garden_ was created in 72 hours for the SSU Computing Houses Fall Game Jam 2025 with the theme **Connections**. It was created by: [myself](https://cube-number-zero.itch.io/) (gameplay programming, [dark magic](#dark-magic-kruskals-garden)), [Emma Brandt](https://emmagain.itch.io/) (UI programming and layout), [Kenyon Fears](https://drfear.itch.io/) (art, some UI programming), [Chloe Shaffer](https://goatz4eva.itch.io/) (art), and [Kory Byrne](https://koryb.itch.io/) (music).
 
+_Kruskal's Garden_ was a very fun project to work on. The concept (growing vines to connect flowers, with different boards and portals between them) seemed like it would be very easy to implement, but that turned out not to be the case. It had probably the most complicated programming tasks I had ever worked on at that point (with the possible exceptiong of simulating tire slip and grip in _Pizza Wizard: 144X_), and for a significant portion of the game jam, I thought I wouldn't be able to finish it in time. Eventually, though, I was able to finish the drawing and connecting logic, and was even able to polish and balance the game with the rest of my team. The only feature that had to be cut for time was crossing vines over each other, which I completed the next weekend and added in an update.
+
 ## [The Light, The Cryptid, and The Wormhole](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
 
 [<img width="315" height="250" alt="yI4foT" src="https://github.com/user-attachments/assets/278735f5-52e7-44dc-88a8-73384be21c3e" />](https://cube-number-zero.itch.io/the-light-the-cryptid-and-the-wormhole)
@@ -24,7 +26,9 @@ A puzzle-platformer about Mothman trying to get to his lamp by using a small por
 
 _The Light, The Cryptid, and The Wormhole_ was created in 48 hours for the SSU Fall Game Jam 2025 with the theme **Window**. Programming, level design, and game design were done by [me](https://cube-number-zero.itch.io/); the art was created by [Chloe Shaffer](https://goatz4eva.itch.io/), and the music by [Kory Byrne](https://koryb.itch.io/).
 
-Winner of the **Jammer's Choice** and **Best Use of Theme** awards.
+Accolades:
+* Winner of the **Jammer's Choice 2025** award
+* Winner of the **Best Use of Theme 2025** award
 
 ## [Black Box](https://cube-number-zero.itch.io/black-box)
 [<img width="315" height="286" alt="UhdCiO" src="https://github.com/user-attachments/assets/a6ac54b0-1205-436c-a5fa-6d6b2152da2f" />](https://cube-number-zero.itch.io/black-box)
@@ -33,7 +37,10 @@ An experimental puzzle game where the player has to navigate levels without seei
 
 _Black Box_ was created in seven days for the SSU Gaming Houses Fall Game Jam 2023 with the theme **Trust**. _Black Box_ was a solo project—all programming, game design, music, level editor design, and art were created by me.
 
-Voted **Most Likely To Scare My Grandma**.
+_Black Box_ was the first project I actually released, and I'm still surprised by how much of an impact it made. It was the first game jam I had ever worked on solo, so I had no real prior experience to tell if I was doing well until after the game jam had ended.
+
+Accolades:
+* Voted **Most Likely To Scare My Grandma**
 
 ## [Robovac Software Engineer Simulator 2535](https://cube-number-zero.itch.io/robovac-software-engineer-simulator-2535)
 [<img width="315" height="177" alt="DKE4zb" src="https://github.com/user-attachments/assets/03321a79-f565-4ff0-829b-68ae139ff9fd" />](https://cube-number-zero.itch.io/robovac-software-engineer-simulator-2535)
@@ -42,12 +49,16 @@ A Zachlike programming puzzle game about programming a vacuum cleaner efficientl
 
 _Robovac Software Engineer Simulator 2535_ was created in nine days for the SSU Spring Game Jam 2024 with the theme **Trash**. It was a solo project—all programming, art, game design, and the language reference manual were created by me.
 
+_Robovac Software Engineer Simulator 2535_ was a game that I wanted to play. Many of my favorite video games have been Zachtronics' hardcore assembly language programming games like _TIS-100_ and _EXAPUNKS_, and I wanted to try to create a game like that. The game is very short due to being a game jam, but I still want to one day return to it and turn it into a full game.
+
 ## [Pizza Wizard: 144X](https://cube-number-zero.itch.io/pizza-wizard-144x)
 [<img width="315" height="250" alt="tsPHqb" src="https://github.com/user-attachments/assets/bdf30e83-e083-4242-8dbb-757cb97c3ce2" />](https://cube-number-zero.itch.io/pizza-wizard-144x)
 
 An action game about delivering pizzas and using magic spells to do it.
 
 _Pizza Wizard: 144X_ was created for a class project by Dante Brooks, [Camilla Leslie](https://thecammy.itch.io/), myself, and Yvette Smith. My responsibilies were creating the music and programming the player controller, realistic car physics, the upgrade system, and several small systems for the others to use.
+
+_Pizza Wizard: 144X_ was my first experience working with a large (more than two people) team. It also was my first chance to try realistically simulating something from real life in a game. I had to spend many hours researching tire physics and Pacejka's magic formula to get it just how I wanted, but I'm very happy with the results.
 
 # Code Snippets
 ## Dark Magic (_Kruskal's Garden_)

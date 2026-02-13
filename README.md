@@ -18,6 +18,16 @@ _Kruskal's Garden_ was created in 72 hours for the SSU Computing Houses Fall Gam
 
 _Kruskal's Garden_ was a very fun project to work on. The concept (growing vines to connect flowers, with different boards and portals between them) seemed like it would be very easy to implement, but that turned out not to be the case. It had probably the most complicated programming tasks I had ever worked on at that point (with the possible exceptiong of simulating tire slip and grip in _Pizza Wizard: 144X_), and for a significant portion of the game jam, I thought I wouldn't be able to finish it in time. Eventually, though, I was able to finish the drawing and connecting logic, and was even able to polish and balance the game with the rest of my team. The only feature that had to be cut for time was crossing vines over each other, which I completed the next weekend and added in an update.
 
+## [TROJAN](https://code-witch.itch.io/trojan)
+
+[<img width="315" height="98" alt="image" src="https://github.com/user-attachments/assets/dd479d0f-d2db-490b-9f60-bab982591017"/>](https://code-witch.itch.io/trojan)
+
+A top-down strategy game about disguising yourself as the enemy to defeat them from within, in a competitive-shooter-inspired game mode about capturing control points.
+
+_TROJAN_ was created in 48 hours for the [Global Game Jam 2026](https://globalgamejam.org/games/2026/trojan-2) with the theme **Mask**. It was created by: [myself](https://code-witch.itch.io/) (gameplay programming, enemy AI), [Kenyon Fears](https://drfear.itch.io/) (art, shader programming), [Chloe Shaffer](https://goatz4eva.itch.io/) (art), and [Kory Byrne](https://koryb.itch.io/) (music).
+
+_TROJAN_ was my first experience of fully completing a non-puzzle game, and allowed me to work with aspects that often aren't included or are less prominent in puzzle games, like enemy AI and gameplay balancing.
+
 ## [The Light, The Cryptid, and The Wormhole](https://code-witch.itch.io/the-light-the-cryptid-and-the-wormhole)
 
 [<img width="315" height="250" alt="yI4foT" src="https://github.com/user-attachments/assets/278735f5-52e7-44dc-88a8-73384be21c3e" />](https://code-witch.itch.io/the-light-the-cryptid-and-the-wormhole)

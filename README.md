@@ -1,5 +1,5 @@
 # About Me
-I'm Sophie Morris (she/her), an indie game programmer and game designer. I like to work with expiremental game mechanics, especially in the puzzle genre.
+I'm Sophie Morris (she/her), an indie game programmer and game designer. I like to work with experimental game mechanics, especially in the puzzle genre.
 
 ## Skills
 * Programming (C, C++, GDScript, C#, Python)

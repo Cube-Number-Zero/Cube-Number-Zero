@@ -8,6 +8,20 @@ I'm Sophie Morris (she/her), an indie game programmer and game designer. I like 
 * [Musician](https://blap.bandcamp.com/)
 
 # Projects
+## [Black Box](https://code-witch.itch.io/black-box)
+[<img width="315" height="286" alt="UhdCiO" src="https://github.com/user-attachments/assets/a6ac54b0-1205-436c-a5fa-6d6b2152da2f" />](https://code-witch.itch.io/black-box)
+
+An experimental puzzle game where the player has to navigate levels without seeing where they are; they must keep track of all puzzle elements in their memory while trying to find the solution.
+
+_Black Box_ was originally created in seven days for the SSU Gaming Houses Fall Game Jam 2023 with the theme **Trust**. _Black Box_ was a solo project—all programming, game design, music, level editor design, and art were created by me.
+
+Later, it was converted into a larger scale full game with more features, levels, and help from Kory Byrne (music) and Andrew Welsh (additional levels). It will be arriving on Steam and publicly on [itch.io](https://code-witch.itch.io/black-box-v2) soon
+
+Remaking _Black Box_ involved rebuilding everything from scratch so I could hold myself to a higher standard of quality than a game jam could allow. The graphics were created in Desmos so I could make the graphics much higher resolution with mathematical precision.
+
+Accolades:
+* Voted **Most Likely To Scare My Grandma**
+
 ## [Kruskal's Garden](https://code-witch.itch.io/kruskals-garden)
 
 [<img width="315" height="250" alt="kruskal" src="https://github.com/user-attachments/assets/81315731-aa86-45c0-8163-e3a07e6bb2c2" />](https://code-witch.itch.io/kruskals-garden)
@@ -39,18 +53,6 @@ _The Light, The Cryptid, and The Wormhole_ was created in 48 hours for the SSU F
 Accolades:
 * Winner of the **Jammer's Choice 2025** award
 * Winner of the **Best Use of Theme 2025** award
-
-## [Black Box](https://code-witch.itch.io/black-box)
-[<img width="315" height="286" alt="UhdCiO" src="https://github.com/user-attachments/assets/a6ac54b0-1205-436c-a5fa-6d6b2152da2f" />](https://code-witch.itch.io/black-box)
-
-An experimental puzzle game where the player has to navigate levels without seeing where they are; they must keep track of all puzzle elements in their memory while trying to find the solution.
-
-_Black Box_ was created in seven days for the SSU Gaming Houses Fall Game Jam 2023 with the theme **Trust**. _Black Box_ was a solo project—all programming, game design, music, level editor design, and art were created by me.
-
-_Black Box_ was the first project I actually released, and I'm still surprised by how much of an impact it made. It was the first game jam I had ever worked on solo, so I had no real prior experience to tell if I was doing well until after the game jam had ended.
-
-Accolades:
-* Voted **Most Likely To Scare My Grandma**
 
 ## [Robovac Software Engineer Simulator 2535](https://code-witch.itch.io/robovac-software-engineer-simulator-2535)
 [<img width="315" height="177" alt="DKE4zb" src="https://github.com/user-attachments/assets/03321a79-f565-4ff0-829b-68ae139ff9fd" />](https://code-witch.itch.io/robovac-software-engineer-simulator-2535)
